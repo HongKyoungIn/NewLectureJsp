@@ -8,5 +8,11 @@
 </head>
 <body>
 	<%=request.getAttribute("result") %>입니다.
+	${resquestScopt.result}<br> <!-- EL(Expression Language -->
+	${names[0]}<br>
+	${notice.title}<br>
+	${result}<br>
+	${param.n/3}<br>
+	${header.accept}<br>
 </body>
 </html>
